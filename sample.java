@@ -1,8 +1,8 @@
-// class sample {
-//     public static void main(String[] args) {
-//         System.out.println("Hello, World!"); 
-//     }
-// }
+class sample {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
 
 
 class smaple{
@@ -12,5 +12,6 @@ class smaple{
         double y;
         System.out.println("x = " + x);
         y = Math.sqrt(x);
+        System.out.println("y = " + y);
     }
 }
