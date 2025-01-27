@@ -99,5 +99,6 @@ public class operators {
         System.out.println("a >> 2 = " + (a >> 2)); // Right shift
         System.out.println("a >>> 2 = " + (a >>> 2)); // Unsigned right shift
 
+        
     }
 }
