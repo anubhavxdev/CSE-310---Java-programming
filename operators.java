@@ -65,5 +65,39 @@ public class operators {
         System.out.println("a < b = " + (a < b));
         System.out.println("a >= b = " + (a >= b));
         System.out.println("a <= b = " + (a <= b));
+
+        // Unary operators
+        System.out.println("Unary minus (-a) = " + (-a));
+        System.out.println("Unary plus (+a) = " + (+a));
+        System.out.println("Bitwise complement (~a) = " + (~a));
+        System.out.println("Logical complement (!true) = " + (!true));
+
+        // Assignment operators
+        int e = a;
+        System.out.println("e = a: " + e);
+
+        e += b;
+        System.out.println("e += b: " + e);
+
+        e -= c;
+        System.out.println("e -= c: " + e);
+
+        e *= d;
+        System.out.println("e *= d: " + e);
+
+        e /= a;
+        System.out.println("e /= a: " + e);
+
+        e %= b;
+        System.out.println("e %= b: " + e);
+
+        // Bitwise operators
+        System.out.println("a & b = " + (a & b)); // Bitwise AND
+        System.out.println("a | b = " + (a | b)); // Bitwise OR
+        System.out.println("a ^ b = " + (a ^ b)); // Bitwise XOR
+        System.out.println("a << 2 = " + (a << 2)); // Left shift
+        System.out.println("a >> 2 = " + (a >> 2)); // Right shift
+        System.out.println("a >>> 2 = " + (a >>> 2)); // Unsigned right shift
+
     }
 }
