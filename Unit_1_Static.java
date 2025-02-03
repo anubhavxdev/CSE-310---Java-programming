@@ -60,13 +60,13 @@
 // Static Question 4
 
 
-import java.util.Scanner;
- public static void main (String[] args){
-    Scanner scanner = new scanner(System.in);
-    int x1 = scanner.nextInt();
-    int x2 = scanner.nextInt();
-    int y1 = scanner.nextInt();
-    int y2 = scanner.nextInt();
-    double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
-    System.out.println(distance);
- }
+// import java.util.Scanner;
+//  public static void main (String[] args){
+//     Scanner scanner = new scanner(System.in);
+//     int x1 = scanner.nextInt();
+//     int x2 = scanner.nextInt();
+//     int y1 = scanner.nextInt();
+//     int y2 = scanner.nextInt();
+//     double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+//     System.out.println(distance);
+//  }
