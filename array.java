@@ -135,3 +135,30 @@
 //         System.out.println(obj.sumNumber(1, 2));
 //     }
 // }
+
+
+public class array {
+    public int sumNumbers(int ... args){
+        System.out.println("Arguement Length: "+args.length);
+        int sum=0;
+        for(int i:args){
+            sum+=i;
+        }
+        return sum;
+    }
+    public static void main(String[] args) {
+        array ex = new array();
+
+        int sum1 = ex.sumNumbers(1,2,3);
+        System.out.println("Sum of 3 numbers: "+sum1);
+
+        int sum2 = ex.sumNumbers(1,2,3,4,5,6,7,8,9,10);
+        System.out.println("Sum of 10 numbers: "+sum2);
+
+        int sum3 = ex.sumNumbers(1,2);
+        System.out.println("Sum of 2 numbers: "+sum3);
+
+        int sum4 = ex.sumNumbers(1,5,6,7,8,9,10);
+        System.out.println("Sum of 7 numbers: "+sum4);
+    }
+}
