@@ -1,8 +1,8 @@
-public package Learning;
+// public package Learning;
 
-class youtube {
+// class youtube {
 
-    public static void main(String[] args) {
-        System.out.println("Hello world");
-    }
-}
+//     public static void main(String[] args) {
+//         System.out.println("Hello world");
+//     }
+// }
