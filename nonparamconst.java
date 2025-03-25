@@ -24,3 +24,4 @@ public class nonparamconst {
         bike.displayStatus();
     }
 }
+
